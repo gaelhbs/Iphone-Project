@@ -12,19 +12,19 @@ classDiagram
         +atualizarPagina()
     }
 
-    classe ReprodutorMusical {
+    interface ReprodutorMusical {
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
     }
 
-    classe AparelhoTelefonico {
+    interface AparelhoTelefonico {
         +ligar(String numero)
         +atender()
         +iniciarCorreioVoz()
     }
 
-    classe NavegadorInternet {
+    interface NavegadorInternet {
         +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
@@ -33,3 +33,6 @@ classDiagram
     iPhone implements ReprodutorMusical
     iPhone implements AparelhoTelefonico
     iPhone implements NavegadorInternet
+```
+
+```mermaid
