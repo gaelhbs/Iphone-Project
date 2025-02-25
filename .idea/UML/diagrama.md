@@ -12,19 +12,19 @@ classDiagram
         +atualizarPagina()
     }
 
-    interface ReprodutorMusical {
+    classe ReprodutorMusical {
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
     }
 
-    interface AparelhoTelefonico {
+    classe AparelhoTelefonico {
         +ligar(String numero)
         +atender()
         +iniciarCorreioVoz()
     }
 
-    interface NavegadorInternet {
+    classe NavegadorInternet {
         +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
